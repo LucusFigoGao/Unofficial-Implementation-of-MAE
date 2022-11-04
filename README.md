@@ -60,6 +60,7 @@ Last but not least, your star is my motivations, thank you!
 
 
 ### Reference
-* 🔥 [Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377) Kaiming He, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Dollár, Ross Girshick
-* 🔥 https://github.com/lucidrains/vit-pytorch
-* 🔥 https://zhuanlan.zhihu.com/p/439554945
+    
+* [Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377) Kaiming He, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Dollár, Ross Girshick
+* https://github.com/lucidrains/vit-pytorch
+* https://zhuanlan.zhihu.com/p/439554945
