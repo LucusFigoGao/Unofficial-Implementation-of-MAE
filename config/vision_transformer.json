@@ -1,0 +1,91 @@
+{
+    "vit_base_patch16_224": {
+        "image_size": 224,
+        "patch_size": 16,
+        "num_classes": 1000,
+        "dim": 768,
+        "depth": 12,
+        "heads": 12,
+        "mlp_dim": 3072, 
+        "dropout": 0.1,
+        "emb_dropout": 0.1
+    }, 
+
+    "vit_base_patch16_384": {
+        "image_size": 384,
+        "patch_size": 16,
+        "num_classes": 1000,
+        "dim": 768,
+        "depth": 12,
+        "heads": 12,
+        "mlp_dim": 3072, 
+        "dropout": 0.1,
+        "emb_dropout": 0.1
+    }, 
+    "vit_base_patch32_224": {
+        "image_size": 224,
+        "patch_size": 32,
+        "num_classes": 1000,
+        "dim": 768,
+        "depth": 12,
+        "heads": 12,
+        "mlp_dim": 3072, 
+        "dropout": 0.1,
+        "emb_dropout": 0.1
+    }, 
+    "vit_base_patch32_384": {
+        "image_size": 384,
+        "patch_size": 32,
+        "num_classes": 1000,
+        "dim": 768,
+        "depth": 12,
+        "heads": 12,
+        "mlp_dim": 3072, 
+        "dropout": 0.1,
+        "emb_dropout": 0.1
+    }, 
+    "vit_large_patch16_224": {
+        "image_size": 224,
+        "patch_size": 16,
+        "num_classes": 1000,
+        "dim": 1024,
+        "depth": 24,
+        "heads": 16,
+        "mlp_dim": 4096, 
+        "dropout": 0.1,
+        "emb_dropout": 0.1
+    }, 
+    "vit_large_patch16_384": {
+        "image_size": 384,
+        "patch_size": 16,
+        "num_classes": 1000,
+        "dim": 1024,
+        "depth": 24,
+        "heads": 16,
+        "mlp_dim": 4096, 
+        "dropout": 0.1,
+        "emb_dropout": 0.1
+    },
+    "vit_large_patch32_224": {
+        "image_size": 224,
+        "patch_size": 32,
+        "num_classes": 1000,
+        "dim": 1024,
+        "depth": 24,
+        "heads": 16,
+        "mlp_dim": 4096, 
+        "dropout": 0.1,
+        "emb_dropout": 0.1
+    },
+    "vit_large_patch32_384": {
+        "image_size": 384,
+        "patch_size": 32,
+        "num_classes": 1000,
+        "dim": 1024,
+        "depth": 24,
+        "heads": 16,
+        "mlp_dim": 4096, 
+        "dropout": 0.1,
+        "emb_dropout": 0.1
+    }
+}

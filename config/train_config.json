@@ -1,0 +1,39 @@
+{
+    "transformer": {
+        "lr": 1e-4, 
+        "model": "vit", 
+        "seed": 666, 
+        "batch_size": 64, 
+        "epoch": 30, 
+        "num_classes": 10, 
+        "pretrained": 1, 
+        "criterion": "CE", 
+        "scheduler": "stepLR", 
+        "optimizer": "Adam", 
+        "cuda_index": "1, 2, 3, 4, 5"
+    }, 
+    "conv": {
+        "lr": 1e-2, 
+        "model": "resnet18", 
+        "seed": 888, 
+        "batch_size": 128, 
+        "epoch": 100, 
+        "num_classes": 10, 
+        "pretrained": 1, 
+        "criterion": "CE", 
+        "scheduler": "Cosine", 
+        "optimizer": "Adam", 
+        "cuda_index": "2"
+    }, 
+    "tools": {
+        "decay": 1e-4, 
+        "momentum": 0.9, 
+        "step_size": 60, 
+        "gamma": 0.1, 
+        "milestones": [30, 80], 
+        "t_max": 5,
+        "eta_min": 0.1, 
+        "t_0": 5, 
+        "t_mult": 1
+    }
+}

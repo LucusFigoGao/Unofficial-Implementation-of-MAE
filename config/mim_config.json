@@ -1,0 +1,32 @@
+{
+    "mae": {
+        "encoder": "vit_base_patch16_224", 
+        "decoder_dim": 784,
+        "masking_ratio": 0.75, 
+        "decoder_depth": 1, 
+        "decoder_heads": 8, 
+        "decoder_dim_head": 64
+    }, 
+    "simmim": {
+        "encoder": "swin_base_patch4_window7_224", 
+        "masking_ratio": 0.5
+    }, 
+    "tools": {
+        "seed": 888, 
+        "batch_size": 64, 
+        "lr": 1e-4,  
+        "decay": 1e-4, 
+        "epoch": 30, 
+        "step_size": 20, 
+        "gamma": 0.1, 
+        "criterion": "MSE", 
+        "optimizer": "Adam", 
+        "scheduler": "stepLR", 
+        "cuda_index": "2, 3, 4, 5", 
+        "resume": "./checkpoint/vit_base_patch16_224-mae-imagenet/cpt-best.pt"
+    }, 
+    "demo": {
+        "target": "./image/target", 
+        "result": "./image/result"
+    }
+}
