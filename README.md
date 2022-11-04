@@ -45,12 +45,11 @@ python mim_demo.py
 ```
 
 ### MAE: Visual results
-<center>
-    <figure>
+<div align="center">
     <img src="./image/markdown/mae_visual.bmp" style="zoom:120.5%;" />
     <p> Fig. 2. (Top) Input image. (Down) Output image after MAE reconstruction. </p>
     </figure>
-</center>
+<div>
 
 
 Due to the limited gpu devices, it's really a chanllenge for us to pretrain with larger model or longer schedule mentioned in the paper. 
