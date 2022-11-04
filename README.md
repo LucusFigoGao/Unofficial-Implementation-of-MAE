@@ -47,8 +47,8 @@ python mim_demo.py
 ### MAE: Visual results
 <center>
     <figure>
-    <img src="./image/target/OIP-C.jpg" style="zoom:120.5%;" /> <img src="./image/result/OIP-C.jpg" style="zoom:100%;" />
-    <p> Fig. 2. (Left) Input image. (Right) Output image after MAE reconstruction. </p>
+    <img src="./image/markdown/mae_visual.bmp" style="zoom:120.5%;" />
+    <p> Fig. 2. (Top) Input image. (Down) Output image after MAE reconstruction. </p>
     </figure>
 </center>
 
