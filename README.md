@@ -48,8 +48,7 @@ python mim_demo.py
 <div align="center">
     <img src="./image/markdown/mae_visual.bmp" style="zoom:120.5%;" />
     <p> Fig. 2. (Top) Input image. (Down) Output image after MAE reconstruction. </p>
-    </figure>
-<div>
+</div>
 
 
 Due to the limited gpu devices, it's really a chanllenge for us to pretrain with larger model or longer schedule mentioned in the paper. 
@@ -59,8 +58,7 @@ We'll release more pretrained encoder, which will reduce the difficulty of train
 Last but not least, your star is my motivations, thank you!
 
 
-### Reference
-    
+### Reference  
 * [Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377) Kaiming He, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Dollár, Ross Girshick
 * https://github.com/lucidrains/vit-pytorch
 * https://zhuanlan.zhihu.com/p/439554945
